@@ -12,3 +12,4 @@ nameserver 10.65.4.2
 nameserver 10.65.4.3
 nameserver 192.168.122.1
 EOF
+

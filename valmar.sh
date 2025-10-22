@@ -10,11 +10,11 @@ apt update
 apt install bind9 -y
 
 nano /etc/bind/named.conf.local
-# zone "K03.com" {
-#   type slave;
-#   masters { 10.65.4.2; };
-#   file "/etc/bind/K03.com";
-# };
+zone "K03.com" {
+  type slave;
+  masters { 10.65.4.2; };
+  file "/etc/bind/K03.com";
+};
 
 ln -s /etc/init.d/named /etc/init.d/bind9
 service bind9 restart

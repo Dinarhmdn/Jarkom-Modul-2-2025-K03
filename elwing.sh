@@ -17,3 +17,5 @@ EOF
 
 dig @10.65.4.2 ns2.K03.com SOA
 dig @10.65.4.2 ns1.K03.com SOA
+
+

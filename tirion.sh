@@ -73,3 +73,12 @@ lindon    IN      A       10.65.4.4
 vingilot  IN      A       10.65.4.5
 
 service bind9 restart
+
+# No 7
+
+nano /etc/bind/K03.com
+www     IN  CNAME sirion.K03.com.
+static  IN  CNAME lindon.K03.com.
+app     IN  CNAME vingilot.K03.com.
+
+# dig @10.65.4.2 www.K03.com A
