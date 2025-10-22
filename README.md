@@ -228,6 +228,8 @@ service bind9 restart
 
 6. Lonceng Valmar berdentang mengikuti irama Tirion. Pastikan zone transfer berjalan, Pastikan Valmar (ns2) telah menerima salinan zona terbaru dari Tirion (ns1). Nilai serial SOA di keduanya harus sama
 
+![WhatsApp Image 2025-10-22 at 23 27 03](https://github.com/user-attachments/assets/e8d32090-5231-4420-afaa-adb6fc19287f)
+
 # Elwing (Selain Server)
 ```
 dig @10.65.4.2 ns2.K03.com SOA
@@ -239,6 +241,8 @@ www.<xxxx>.com → sirion.<xxxx>.com,
 static.<xxxx>.com → lindon.<xxxx>.com, dan 
 app.<xxxx>.com → vingilot.<xxxx>.com. 
 Verifikasi dari dua klien berbeda bahwa seluruh hostname tersebut ter-resolve ke tujuan yang benar dan konsisten.
+
+![WhatsApp Image 2025-10-22 at 23 27 03](https://github.com/user-attachments/assets/c0fe4130-4e2e-4a99-944f-cd6c86ddb3d9)
 
 # Tirion
 ```
